@@ -1,1 +1,393 @@
+body {
+    background-color:powderblue;
+}
+.main {
+    text-align:center;   
+}
+.MB {
+    color:#009900;
+    font-size:50px;
+    font-weight:bold;
+}
+#food {
+    font-style:bold;
+    font-size:20px;
+}
+    h3{
+        color:black;
+        font-size: medium;
+        font-style: italic;
+        text-align: center;
+    }
+    h1{
+        color: blue;
+        font-size: larger;
+        font-style: normal;
+        text-align: center;
+    }
+    h2{
+        color:black;
+        font-size:large;
+        font-style:italic;
+    }
+    img{
+        image-orientation: flip;
+    }
+    body{
+        background-color:turquoise;
+        background-image:URL(chef.webp) ;
+        background-size :100%;
+    }
+    table, th, td{
+        border: 1px solid black;
+        border-collapse: collapse;
+        font-size: large;
+    }
+h1{
+    color: blue;
+    font-size: larger;
+    font-style: normal;
+    text-align: center;
+}
 
+h2{
+    color: black;
+    font-size: larger;
+    font-style: normal;
+    text-align: center;
+}
+
+p{
+    color:black;
+    font-size:larger;
+    font-style:italic;
+}
+
+table, th, td{
+    border: 2px dotted red;
+    border-collapse:collapse;
+    font-size: large;
+}
+
+th, td{
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+table{
+    border-spacing:30px;
+}
+
+header{
+    background-image:URL(healthiestfood.jpg) ;
+    height:700px;
+    background-size:cover;
+    background-position:center;
+}
+
+ul{
+    float: right;
+    list-style: none;
+    margin-top: 15px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration:none;
+    color: rgb(255, 249, 249);
+    padding: 5px 20px;
+    font-family:Arial;
+    font-size: 15px;
+    border: 1px solid transparent;
+}
+
+ul li a:hover{
+    background-color: rgb(228, 170, 170);
+}
+
+.title{
+    position: absolute;
+    width: 650px;
+    height: 350px;
+    margin: 16% 30%;
+    text-align: center;
+}
+
+.title h1{
+    text-align:center;
+    color:whitesmoke;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+<doctype.html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WebDev</title>
+<link rel="stylesheet" href="style address.css">
+<style>    
+img{
+        image-orientation: flip;
+    }
+body{
+        background-color:turquoise;
+        background-image:URL(chef.webp) ;
+        background-repeat: no-repeat;
+        background-size :100%;
+        background-attachment:fixed;
+}
+</style>
+</head>  
+<body>
+    <header>
+        <div>
+            <ul>
+                <li><a href="#History">History</a></li>
+                <li><a href="#location">location</a></li>
+                <li><a href="#meals">meals</a></li>
+                <li><a href="#order">Order meals</a></li>
+                <li><a href="#Staff">Staff</a></li>
+                <li><a href="#Employment">Job Application</a></li>
+                <li><a href="#Contact Information">Contact us</a></li>
+            </ul>
+        </div>
+        <div class="title">
+            <h1>Welcome to Mwatulu's International Hotel</h1>
+        </div>
+        </header>
+
+<h1 style="color: blue;" >Welcome to Mwatulu's International Hotel</h1>
+<h1 style="color: blue;" id="History">History</h1>
+
+<p>Mwatulu's International Hotel tooks inspiration from Kentucky Fried Chicken alias KFC. The idea was to create something good using locally available
+    food stuff to create not only good and pocket friendly dishes but dishes that would provide the body with energy to do daly tasks and 
+    give a sense of satisfaction to the consumer. </p>
+    
+<p>Our founder, Mr Mike Horton, believed in the idea of food is the solution to everything. 
+    For example if one wanted to feel  energized, they could eat ugali and beef and if another wanted something expsensive, something exotic 
+    then they would pick pilau or another tasty dish to meet their needs.</p>
+
+<p>The names of the other founders of Mwatulu's International Hotel are; 
+    <ul style="float: none;">
+        <ol>Chairman<br>
+          <li>Mike Horton</li>
+          <dd>-He now has a career in politics</dd>
+        </ol><br>
+        <ol>Vice Chairperson<br>
+        <li>John Smith</li>
+        <dd>- He is incharge of Mwatulu's Branches that are in E.A</dd>
+        <li>Mary Orion</li>
+        <dd>- She now owns a game development company</dd>
+        </ol><br>
+        <ol>Treasurer<br>
+        <li>Robert Wafula</li>
+        <dd>- He still works in Mwatulu as the Vice CEO</dd>
+        <li>James Ford</li>
+        <dd>- He holds the tender to deliver food stuffs to all Mwatulu branches</dd>
+        <li>Ian Kaligara</li>
+        <dd>- He is the lead accountant in Mwatulu</dd>
+        </ol><br> 
+        <ol>Members<br>
+        <li>Malorieie Wambui</li>
+        <dd>- She handles all of Mwatulu's Social Media accounts</dd>
+        <li>Jack Okal</li>
+        <dd>- He is incharge of Naughty kitty Gaming studio</dd>
+        <li>Jemima Cynthialeka</li>
+        <dd>- She is the founder and onwer of Fitness Monger99 Gym enterprise</dd>
+        <li>Gilbert Desmonds</li>
+        <dd>- He owns a software development company</dd>
+        <li>Coby Simons</li>
+        <dd>- He works at Tesla</dd>
+        <li>Jared Odhiambo</li>
+        <dd>- He got employed at Google as a database administrator</dd>
+        <li>Walter Mghondi</li>
+        <dd>- He is the CEO of Mwatulu's International Hotel</dd>
+        </ol>
+      </ul>
+</p>
+<hr>
+
+<h1 style="color: blue;" id="location">location</h1>
+
+<p>Mwatulu's International Hotel was Located near <a href="https://elearning.kisiiuniversity.ac.ke" target="blank" >kisi university</a> when it started in 2013 before moving to kisii town near the Central Business District
+    in 2016</p>
+<p>Since then we have been providing residents wiht sweet and nutritious dishes that are affordable and healthy to the body.As of 2022, we have
+    grown and now we have branches in almost 40 counties in Kenya and we have branches in over 10 African countries Mainly in Uganda, Tanzania, 
+    Rwanda, Burundi, Somalia, Ethiopia etc.
+</p>
+
+<p id="meals">You are welcomed to try some of the dishes below;</p>
+
+    <p style="color:blue">
+        <p>Come and try our esteemed dishes;</p>
+        <p>Pilau @150/=</p><img src="Pilau.jpg" alt="Rice cooked together with meat, sereved with kachumbari" style="width: 400px;height: 400px;">
+        <p>Mahamri @10/=</p><img src="mahamri.jpg" alt="sweet products made by Ata wheat flour" move="center" style="width: 400;height: 400;" >
+        <p>Viazi Karai @10/= </p><img src="Viazikarai.jpg" alt="deepfried potatoes serevd with kachumbari" style="width: 400;height: 400">
+        <p>Half Cake/ Kangumu @10/=</p><img src="Kangumu.jpg" alt="Deep fried kneeded dough, eaten with breakfast" style="width:400 ;height:400">
+        <p>and many more...</p>
+    </p>
+<p id="order">You can also order food and we deliver it right to your doorstep. Just fill in the details in the form below;</p>
+<form>
+    <label for="gmail">Gmail Address;</label><br>
+    <input type="email" id="gmail" name="gmail"required><br>
+<p>What would you like to order?</p>
+    <label for="Meal">Breakfast</label><br>
+    <input type="checkbox" id="Meal" name="Meal"><br>
+    <select id="breakfast" name="FASTBREAK" size="1">
+        <option value="1">Avocado and Poached Egg Toast</option>
+        <option value="2">Tropical Acai Breakfast Bowl</option>
+        <option value="3">Banana Bread Bars</option>
+        <option value="4">Hlaf Cake</option>
+        <option value="5">Banana Oatmeal Muffins</option>
+        <option value="6">Vegan Banana Muffins</option>
+        <option value="7">Chicken Omelet</option>
+        <option value="8">Cream Cheese Pancakes</option>
+        <option value="9">Keto Waffles</option>
+        <option value="10">Healthy Banana Bread</option>
+    </select><br>
+
+    <label for="Meal">Lunch</label><br>
+    <input type="checkbox" id="Meal" name="Meal"><br>
+    <select id="Lunch" name="LUNCH" size="1">
+        <option value="1">Pilau</option>
+        <option value="2">Black Bean and Rice Salad</option>
+        <option value="3">Githeri with avocado</option>
+        <option value="4">Coriander Chicken and Rices</option>
+        <option value="5">Ugali and Beef Stew</option>
+        <option value="6">Smoky Chicken With Potato Salad</option>
+        <option value="7">Glazed Meatballs with Noodles</option>
+        <option value="8">Rice and egusi soup</option>
+        <option value="9">Peri Peri Chicken</option>
+        <option value="10">Irio (Mashed Peas and Potato Mix)</option>
+    </select><br>
+
+    <label for="Meal">Supper</label><br>
+    <input type="checkbox" id="Meal" name="Meal"><br>
+    <select id="Lunch" name="LUNCH" size="1">
+        <option value="1">Peri Peri Chiken</option>
+        <option value="2">Matoke (Green Banana Stew)</option>
+        <option value="3">Githeri with avocado</option>
+        <option value="4">Morocan Chicken</option>
+        <option value="5">Ugali and Beef Stew</option>
+        <option value="6">Moroccan Chickpea Stew</option>
+        <option value="7">African Pompano Fish Stew</option>
+        <option value="8">Vegan Chickpea Curry</option>
+        <option value="9">Pilau</option>
+        <option value="10">Irio (Mashed Peas and Potato Mix)</option>
+    </select><br>
+
+<p>What color would you like your bag to look like?</p>  
+    <label for="favcolor">Select your favorite color:</label>
+    <input type="color" id="favcolor" name="favcolor"><br>
+    <button type="button" onclick="document.getElementById('namey').innerHTML =('Thank you for ordering with us!!!')">Submit</button>
+    <p id="namey"></p>
+</form>
+<hr>
+
+<h1 style="color: blue;" id="Staff">Staff</h1>
+
+<p>Our chefs are professionals who are trained on the subtle art of cooking and ensure that the meals served are safe to be consumed by our well 
+    valued customers. We have included some of their names in the table below for you to confirm that they have been certified by the government. You can 
+    also reach out to them to establish raport with them through their work emails below. </p> 
+
+<table style="width:100%">
+   <tr>
+       <th colspan="2" rowspan="1">Name</th>
+       <th colspan="1" rowspan="1">Email</th>
+       <th colspan="1" rowspan="1">Government Work Number</th>
+   </tr> 
+   <tr>
+       <td>Martin</td>
+       <td>Mwakidisa</td>
+       <td>Martinford25Mwatulu@gmail.com</td>
+       <td>IN160034RE5</td>
+   </tr>
+   <tr>
+       <td>Tom</td>
+       <td>Onyango</td>
+       <td>PapiTom77Mwatulu@gmail.com</td>
+       <td>IN160035RE78</td>
+   </tr>
+   <tr>
+    <td>Moraa</td>
+    <td>Wabuko</td>
+    <td>WabukoMoraa4Mwatulu@gmail.com</td>
+    <td>IN160045RE56</td>
+   </tr>
+</table>
+
+<hr>
+
+<h1 style="color: blue;" id="Employment">Employment</h1>
+
+<p>If you are intrested in getting a job here at Mwatulu, you can fill in the following details in the form below;</p>
+
+<form>
+    <label for="fname">First name;</label><br>
+    <input type="text" id="fname" name="fname"required><br>
+    <label for ="lname">last name;</label><br>
+    <input type="text" id="lname" name="lname"required><br>
+    <label for="gmail">Gmail Address;</label><br>
+    <input type="text" id="gmail" name="gmail"required><br>
+
+<p>Choose the work position you wish to apply for:</p>
+
+    <input type="radio" id="cook" name="work position" value="CHEF">
+    <label for="cook">CHEF</label><br>
+    <input type="radio" id="walk" name="work position" value="WAITER">
+    <label for="walk">WAITER</label><br>
+    <input type="radio" id="work" name="work position" value="WAITRESS">
+    <label for="work">WAITRESS</label><br>
+    <input type="radio" id="deliver" name="work position" value="DELIVERY PERSONNEL">
+    <label for="deliver">DELIVERY PERSONNEL</label><br>
+    <input type="radio" id="run" name="work position" value="CLEANING PERSONNEL">
+    <label for="run">CLEANING PERSONNEL</label><br>
+
+<p>Choose the branch you want to work for;</p>
+    <select id="locaition" name="Branch" size="1">
+        <option value="1">KENYA</option>
+        <option value="2">TANZANIA</option>
+        <option value="3">UGANDA</option>
+        <option value="4">RWANDA</option>
+        <option value="5">BURUNDI</option>
+        <option value="6">SOMALIA</option>
+        <option value="7">ETHIOPIA</option>
+        <option value="8">SOUTH AFRICA</option>
+        <option value="9">NIGERIA</option>
+        <option value="10">NAMIBIA</option>
+        <option value="11">MADAGASCAR</option>
+        <option value="12">CHAD</option>
+    </select>    
+<p>Upload your resume here;</p>
+
+    <input type="file" id="submission" name="resume" value="UPLOAD"required><br><br>
+    <button type="submit" onclick="document.getElementById('apply').innerHTML =('The form has been uploaded successfully')">Submit</button>
+    <input type="reset" value="Reset">
+    <p id="apply"></p>
+    
+</form>
+
+<p><a href="https://www.google.com" target="blank">Click here to see more</a></p>
+
+<hr>
+
+<h1 id="Contact Information">Contact Information</h1>
+
+<address style="font-size: larger; color: black; text-align:center">
+        Contact us at;<br>
+        0115503512<br>
+        Twitter; @Mwatulu International<br>
+        Facebook; Mwatulu International Hotel<br>
+        Youtube; Mwatulu's International Hotel
+        <p><a href="mailto:Mwatuluinternational006@gmail.com" target="top">send us an email</a></p>
+</address>
+<footer>
+    <h2>Copyright &copy; 2021| All rights reserved | Mghenyi Mike Kililo</h2>
+</footer>
+</body>
