@@ -1,0 +1,30 @@
+    h3{
+        color:black;
+        font-size: medium;
+        font-style: italic;
+        text-align: center;
+    }
+    h1{
+        color: blue;
+        font-size: larger;
+        font-style: normal;
+        text-align: center;
+    }
+    h2{
+        color:black;
+        font-size:large;
+        font-style:italic;
+    }
+    img{
+        image-orientation: flip;
+    }
+    body{
+        background-color:turquoise;
+        background-image:URL(chef.webp) ;
+        background-size :100%;
+    }
+    table, th, td{
+        border: 1px solid black;
+        border-collapse: collapse;
+        font-size: large;
+    }

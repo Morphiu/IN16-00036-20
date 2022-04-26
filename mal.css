@@ -1,0 +1,15 @@
+body {
+    background-color:powderblue;
+}
+.main {
+    text-align:center;   
+}
+.MB {
+    color:#009900;
+    font-size:50px;
+    font-weight:bold;
+}
+#food {
+    font-style:bold;
+    font-size:20px;
+}
